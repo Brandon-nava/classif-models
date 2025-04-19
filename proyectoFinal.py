@@ -4,7 +4,7 @@ import numpy as np
 import os
 from PIL import Image
 
-logo = Image.open("fic rezised.png")
+logo = Image.open("logoUAT.png")
 st.set_page_config(page_title = 'FIC', page_icon = logo)
 
 # === Configuración inicial ===
