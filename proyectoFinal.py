@@ -25,7 +25,7 @@ modelos_disponibles = {
 ruta_scaler = 'escalador.joblib'
 
 # === Inputs del usuario ===
-age = st.number_input("Edad (Age)", min_value=1, max_value= 100 step=1)
+age = st.number_input("Edad (Age)", min_value=1, max_value= 100, step=1)
 ckmb = st.number_input("CK-MB", min_value=0.000, step=0.001)
 troponin = st.number_input("Troponin", min_value=0.000, step=0.001)
 
