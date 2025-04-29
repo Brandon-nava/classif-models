@@ -30,7 +30,7 @@ if seccion == "Inicio":
 # === SECCIÓN: Clasificación ===
 elif seccion == "Clasificación":
     st.title("Clasificación de Ataques Cardíacos")
-    st.write("Ingresa los valores clínicos para predecir el resultado usando distintos modelos de clasificación.")
+    st.write("Ingresa los valores clínicos para determinar si se es propenso a ataques cardiacos usando distintos modelos de clasificación.")
 
     modelos_disponibles = {
         'Regresión Logística': 'logModel_entrenado.pkl',
