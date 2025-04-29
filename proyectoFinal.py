@@ -44,8 +44,8 @@ elif seccion == "Clasificación":
     ruta_scaler = 'escalador.joblib'
 
     age = st.number_input("Edad (Age)", min_value=1, max_value=100, step=1)
-    ckmb = st.number_input("CK-MB", min_value=0, step=0.01)
-    troponin = st.number_input("Troponin", min_value=0, step=0.01)
+    ckmb = st.number_input("CK-MB", min_value=0.00, step=0.01)
+    troponin = st.number_input("Troponin", min_value=0.00, step=0.01)
 
     modelo_seleccionado = st.selectbox("Selecciona un modelo de clasificación", list(modelos_disponibles.keys()))
 
