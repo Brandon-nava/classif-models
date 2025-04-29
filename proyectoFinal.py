@@ -60,7 +60,7 @@ elif seccion == "Clasificación":
             prediccion = modelo.predict(entrada_escalada)[0]
             resultado = "Positivo" if prediccion == 1 else "Negativo"
 
-            st.success(f"Resultado de la predicción: **{resultado}**")
+            st.success(f"Resultado de la clasificación: **{resultado}**")
 
         except Exception as e:
             st.error(f"Error: {e}")
